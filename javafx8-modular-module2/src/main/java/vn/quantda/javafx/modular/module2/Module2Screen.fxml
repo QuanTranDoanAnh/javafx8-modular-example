@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vn.quantda.javafx.modular.module2.Module2ScreenController">
+   <children>
+      <VBox prefHeight="285.0" prefWidth="273.0">
+         <children>
+            <Label alignment="TOP_CENTER" text="Module 2 Screen" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="70.0" right="20.0" top="50.0" />
+               </VBox.margin>
+            </Label>
+            <Button fx:id="switchScreenButton" mnemonicParsing="false" onAction="#handleSwitchScreen" text="Switch to Module 1 Screen">
+               <VBox.margin>
+                  <Insets left="70.0" right="20.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
